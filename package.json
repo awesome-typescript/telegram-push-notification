@@ -6,7 +6,7 @@
 	"license": "ISC",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/promotion-social-networks/social-crawler-common-telegram-push-notification.git"
+		"url": "git+https://github.com/awesome-typescript/telegram-push-notification.git"
 	},
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
