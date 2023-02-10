@@ -24,7 +24,7 @@ describe('push-gyazo-message', () => {
   test('should throw an error, if "TOKEN" or "CHANNEL_ID" are wrong', async () => {
     try {
       await telegram('send message ...')
-    } catch (error) {
+    } catch (error: any) {
       expect(error.name).toBe(TelegramPushMessageException.name)
       expect(error.message).toBe('ETELEGRAM: 404 Not Found')
       expect(error.stack).not.toBeUndefined()
